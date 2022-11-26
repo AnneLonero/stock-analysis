@@ -1,16 +1,14 @@
 # Stock Analysis With Excel VBA
 
-Click link for Excel file: [VBA_Challenge.xlsm]
+## Overview of Project
 
-##Overview of Project
-
-###Purpose
+### Purpose
 The purpose of the project is to analyze the entire stock market over the last few years based on dataset provided to identify the investing potential for different stocks. The solution code will then be refactored to improve the efficiency of the VBA script.
 
-###Data
+### Data
 The data set includes two worksheets of stock history for year of 2017 and 2018. Each worksheet has information of 12 stocks including tickers, dates, opening and closing price, the highest and lowest prices, adjusted closing price and the trading volume. The goal is analyzing the data to retrieve total daily trading volume and rate of return for each stock using VBA scripts.
 
-##Analysis
+## Analysis
 During refactoring process, creating "tickerIndex" variable was identified as necessary. This "tickerIndex" is used to access the correct index across the four different arrays: the ticker arrays, and three ouput arrays (tickerVolumes, tickerStartingPrices, tickerEndingPrices) as shown below
 
 '1a) Create a ticker Index
@@ -72,7 +70,7 @@ During refactoring process, creating "tickerIndex" variable was identified as ne
     Next i
 
 
-##Result
+## Result
 The stock anaysis outputs of the refactored solution are the **same** as the original solution as shown below
 
 ![All Stocks Analysis original](https://user-images.githubusercontent.com/114631804/204064107-72bfd417-f3cf-40c9-b237-bc617f8f4786.png)
@@ -85,12 +83,12 @@ For the year 2018, the orginal code ran in 1.238281 seconds to resolve while the
 
 ![VBA_Challenge_2018_2](https://user-images.githubusercontent.com/114631804/204064150-e5ffb656-eeb9-4025-ab86-5f842b95a654.png)
 
-##Summary
+## Summary
 
-###Advantages and disadvantages of refactoring code
-Refactored code is more logical in term of structure for computer to run and understand. It eliminates the nested "for" loop which reduce the confusion. However, the original code would be easier for human (especially less advanced coder) to unsderstand since it includes more hardcode and more straight forward.
+### Advantages and disadvantages of refactoring code
+Refactored code is more logical in term of structure for computer to run and understand. It eliminates the nested "for" loop which reduce the confusion. However, the original code would be easier for human (especially less advanced coder) to unsderstand, since it includes more hardcode and is more straight forward.
 
-###Application Advantages and Disadvantages of refactoring code
+### Application Advantages and Disadvantages of refactoring code
 Refactored code ran much faster and more dynamic than the original code. Since the logic is more organized and more variables are identified, the refactored code can potentially be used for larger dataset or other application. However, the refactored code needs to be documented very detailed for future improvement.
 
 
