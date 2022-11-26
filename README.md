@@ -73,14 +73,18 @@ During refactoring process, creating "tickerIndex" variable was identified as ne
 ## Result
 The stock anaysis outputs of the refactored solution are the **same** as the original solution as shown below
 
+All Stocks Analysis original
 ![All Stocks Analysis original](https://user-images.githubusercontent.com/114631804/204064107-72bfd417-f3cf-40c9-b237-bc617f8f4786.png)
 
+All Stocks Analysis refactored
 ![All Stocks Analysis refactored](https://user-images.githubusercontent.com/114631804/204064117-57a7b048-ad32-4b60-83ca-b973c33020d9.png)
 
 For the year 2018, the orginal code ran in 1.238281 seconds to resolve while the refactored code ran in 0.1875 seconds. The refactored solution evidently ran **6.6 times faster** than the original code.
 
+Original script time
 ![VBA_Challenge_2018_1](https://user-images.githubusercontent.com/114631804/204064130-2f353efe-3b33-470b-8006-e51fc4d0ae36.png)
 
+Refactored script time
 ![VBA_Challenge_2018_2](https://user-images.githubusercontent.com/114631804/204064150-e5ffb656-eeb9-4025-ab86-5f842b95a654.png)
 
 ## Summary
